@@ -139,7 +139,7 @@ dokku config:set my-app FREEGEOIP_API_KEY=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 
 Storage on Dokku is ephemeral, meaning everything you save will be deleted at the next reboot, luckily you can expose a local directory as persistent storage in your app container.
 
-More documentation available at [https://dokku.com/docs/advanced-usage/persistent-storage/]().
+More documentation available at https://dokku.com/docs/advanced-usage/persistent-storage/.
 
 To expose a local directory you can use the following command:
 
