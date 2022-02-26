@@ -1,0 +1,68 @@
+# The name of your app, for use it was just "Howlr"
+APP_NAME: my-app
+
+# Some links you may want to display on the app, those are totally optional.
+WEBSITE_LINK: https://my-app.com/home
+GITHUB_LINK: https://github.com/my-app/my-app-repository
+
+# Never use this key in production, it is even better if you generate a new
+# one with `bin/rake secret` and copy and paste it here.
+SECRET_KEY_BASE: "0aaf5438642b2bc8a7a15e202d344b563fa3d67d90277f583843c2ea3b0a01309f605f3a9eaf9656b4531919c3d895bbe9ceff53e584d237ca1c7d70ad2a44e3"
+
+# This is needed to give a decent default location to new users,
+# you can get an API key by registering here https://freegeoip.app/
+FREEGEOIP_API_KEY: "XXX"
+
+# Maximum number of users to show in the users listing
+MAXIMUM_USERS_COUNT: 1000
+
+# After this number of days without any activity, users won't be shown
+# on the users listing
+IDLE_DAYS_COUNT: 60
+
+# How recent members must be to be shown with the "New members" filter
+RECENT_USERS_DAYS_COUNT: 2
+
+# Number of months before we remove accounts. Account removal can be done
+# by running `bin/rake users:remove_idle`
+ACCOUNT_REMOVAL_MONTHS_COUNT: 15
+
+# Minimum age to sign-up
+MINIMUM_AGE: 18
+
+# After this number of minutes without activity, users will be considered
+# offline
+ONLINE_DURATION: 5
+
+# The number of minutes a user have to wait before they can change their
+# location again
+LOCATION_CHANGE_INTERVAL_MINUTES: 60
+
+# The number of days past events will be visible
+PAST_EVENTS_VISIBLITY_DAYS_COUNT: 7
+
+# How far, in meters, can a event be seen by other users
+EVENT_MAXIMUM_SEARCHABLE_DISTANCE: 100000
+
+# The maximum number of events you can create by week
+EVENTS_MAX_PER_WEEK: 3
+
+# The maximum number of groups you can join
+MAXIMUM_JOINED_GROUPS_COUNT: 60
+
+# The maximum number of characters for fields like bio, like and dislike
+MAXIMUM_FIELDS_LENGTH: 4000
+
+# The maximum number of character for user name
+MAXIMUM_NAME_LENGTH: 100
+
+# Users with a Karma lower than that will get shadowbanned until their
+# Karma goes up
+KARMA_LIMIT: -8
+
+# Username and token of your Telegram bot, you don't have to use it in development
+# (and rather generate users and code with `bin/rake db:seed`) but if you do you
+# will need to run `bin/rake telegram:bot:poller`. More information can be found
+# here: https://github.com/telegram-bot-rb/telegram-bot
+CODE_BOT_USERNAME: "DevelopmentLoginBot"
+CODE_BOT_TOKEN: "XXX"

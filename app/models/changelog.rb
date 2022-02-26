@@ -1,0 +1,2 @@
+class Changelog < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class PrivacyPolicyItem < InformationItem
+end

@@ -1,0 +1,2 @@
+class TosItem < InformationItem
+end

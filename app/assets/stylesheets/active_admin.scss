@@ -1,0 +1,17 @@
+@import "arctic_admin/base";
+
+.action-button {
+  display: inline-block;
+  
+  input[type='submit'] {
+    padding: 6px 12px;
+    margin-bottom: 6px;
+  }
+
+  &.action-good input {
+    background-color: #46be8a;
+  }
+  &.action-bad input {
+    background-color: #dc4747;
+  }
+}

@@ -1,0 +1,2 @@
+class FaqItem < InformationItem
+end
