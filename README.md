@@ -420,3 +420,5 @@ Karma rules can be written in plain Ruby and are configurable at `config/initial
 This function has full access to the Rails environment, meaning you can make any query you want, access the whole user object, etc.
 
 *In the admin interface you can manually boost (with a positive) or aggravate (with a negative value) the karma of individual users.*
+
+Bisous les louloups !
