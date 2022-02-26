@@ -186,7 +186,7 @@ dokku domains:set my-app my-app.com
 
 *Don't worry if you see something like `No web listeners specified for my-app`, it is because we haven't deployed our app yet.*
 
-Please follow the Dokku documentation here [https://dokku.com/docs/configuration/domains/]() if you wish to do more complicated things, like settings multiple domains.
+Please follow the Dokku documentation here https://dokku.com/docs/configuration/domains/ if you wish to do more complicated things, like settings multiple domains.
 
 
 ### Letsencrypt
