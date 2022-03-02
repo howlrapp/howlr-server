@@ -8,7 +8,7 @@ We made a few changes to make it simpler, it is also easier and cheaper to deplo
 * We merged the moderation and admin interface. It is now way simpler to maintain.
 * We previously used a separate server for reverse geocoding, for this release we decided to merge it with the rest of the Howlr code base to make it simpler to deploy.
 * We added a way to store files locally instead of having to use an external service like S3 (though it is still possible).
-* We remove all the dead code and other features we never really used.
+* We removed all the dead code and other features we never really used.
 
 # Deployment
 
@@ -227,7 +227,7 @@ git remote add server dokku@my-app.com:my-app
 And everytime you want to deploy you just have to push to this remote:
 
 ```
-git push server master
+git push server main:master
 ```
 
 If you're really tight on memory and you can accept a few seconds of downtime on each deploy you
