@@ -287,7 +287,7 @@ Howlr uses a Telegram bot to handle user registration, to configure it you must 
 
 ```
 dokku config:set my-app CODE_BOT_USERNAME="MyAppLoginBot"
-dokku config:set my-app CODE_BOT_TOKEN="telegram:token"
+dokku config:set my-app CODE_BOT_TOKEN="Paste token from telegram @botfather"
 ```
 
 Once this is done we must set a webhook on Telegram, you can do that by running the following command:
